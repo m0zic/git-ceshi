@@ -3,7 +3,7 @@
 int main ()
 {
 	int i,j,k;
-	printf("Hello World!\n"); //test for pull
+	printf("World!\n"); //test for pull
 
  	for ( i=1;i<=3;i++)        //对A有3中选择X，Y，Z
   		for ( j=1;j<=3;j++)    //对B有3中选择X，Y，Z
