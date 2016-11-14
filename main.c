@@ -4,8 +4,7 @@ int main ()
 {
 	int i,j,k;
 	printf("Hello\n"); //test for pull
-	//远程修改，造成冲突
- 	for ( i=1;i<=3;i++)        //对A有3中选择X，Y，Z
+//冲突解决 	for ( i=1;i<=3;i++)        //对A有3中选择X，Y，Z
   		for ( j=1;j<=3;j++)    //对B有3中选择X，Y，Z
            for (k=1;k<=3;k++)  //对C有3中选择X，Y，Z
       			if (i!=j&&j!=k&&i!=k&&i!=1&&j!=1&&j!=3)  
